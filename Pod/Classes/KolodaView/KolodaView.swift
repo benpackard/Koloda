@@ -36,6 +36,10 @@ public extension KolodaViewDataSource {
         return nil
     }
     
+    func kolodaSpeedThatCardShouldDrag(_ koloda: KolodaView) -> DragSpeed {
+		return .default
+	}
+    
 }
 
 public protocol KolodaViewDelegate: class {
